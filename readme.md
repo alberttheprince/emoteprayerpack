@@ -1,9 +1,15 @@
+# This is a WIP, not all emotes are working atm
+
 
 <img width="1919" height="1079" alt="muslimprayer" src="https://github.com/user-attachments/assets/196a07cc-d02a-47c2-b3ed-c323871c7064" />
 
 A collection of poses created by [Struggleville](https://discord.com/invite/m7P3F7Cwmu) and sponsored by Popcorn RP.
 
-This includes all positions for traditional Sunni Salat and, in addition, some (not all) variants for different madhabs. Additional poses for Shia Salat are also included.
+This includes all positions for traditional Sunni Salat and, in addition, some (not all) variants for different madhabs. Additional poses for Shia Salat are also included. 
+
+This pack also includes two Jewish prayer poses and four Christian prayer poses.
+
+:star_and_crescent: :star_of_david: :cross: 
 
 ---
 
@@ -12,6 +18,7 @@ Need the dict and name for your emote system?
 Below are all thirteen:
 
 ```
+Islam:
 	<Anim dict="smo@prayer_posepack_01" name="prayer_posepack_01_clip" />
 	<Anim dict="smo@prayer_posepack_02" name="prayer_posepack_02_clip" />
 	<Anim dict="smo@prayer_posepack_03" name="prayer_posepack_03_clip" />
@@ -26,6 +33,15 @@ Below are all thirteen:
 	<Anim dict="smo@prayer_posepack_12" name="prayer_posepack_12_clip" />
 	<Anim dict="smo@prayer_posepack_12" name="prayer_posepack_13_clip" />
 
+Judaism:
+	<Anim dict="smo@prayer_posepack_12" name="prayer_posepack_14_clip" />
+	<Anim dict="smo@prayer_posepack_12" name="prayer_posepack_15_clip" />
+	
+Christianity:
+	<Anim dict="smo@prayer_posepack_16" name="prayer_posepack_16_clip" />
+	<Anim dict="smo@prayer_posepack_17" name="prayer_posepack_17_clip" />
+	<Anim dict="smo@prayer_posepack_18" name="prayer_posepack_18_clip" />
+	<Anim dict="smo@prayer_posepack_19" name="prayer_posepack_19_clip" />
 ```
 
 FOR RPEMOTES-REBORN USERS ON FIVEM: 
@@ -160,4 +176,5 @@ If you are on an older version or your own custom version, add the below to your
 },
 
 ```
+
 
