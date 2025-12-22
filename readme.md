@@ -1,19 +1,19 @@
-# This is a WIP, not all emotes are working atm
-
-
-<img width="1919" height="1079" alt="muslimprayer" src="https://github.com/user-attachments/assets/196a07cc-d02a-47c2-b3ed-c323871c7064" />
+<img width="1753" height="980" alt="image" src="https://github.com/user-attachments/assets/fcaa2a96-252f-49cf-897e-1bef42b13508" />
 
 A collection of poses created by [Struggleville](https://discord.com/invite/m7P3F7Cwmu) and sponsored by Popcorn RP.
 
 This includes all positions for traditional Sunni Salat and, in addition, some (not all) variants for different madhabs. Additional poses for Shia Salat are also included. 
 
-This pack also includes two Jewish prayer poses and four Christian prayer poses.
+<img width="1919" height="1079" alt="muslimprayer" src="https://github.com/user-attachments/assets/196a07cc-d02a-47c2-b3ed-c323871c7064" />
+
+This pack also includes two Jewish prayer poses and six Christian prayer poses.
+
 
 ---
 
 Need the dict and name for your emote system?
 
-Below are all thirteen:
+Below are all the included animations:
 
 ```
 Islam:
@@ -40,11 +40,13 @@ Christianity:
 	<Anim dict="smo@prayer_posepack_17" name="prayer_posepack_17_clip" />
 	<Anim dict="smo@prayer_posepack_18" name="prayer_posepack_18_clip" />
 	<Anim dict="smo@prayer_posepack_19" name="prayer_posepack_19_clip" />
+	<Anim dict="smo@prayer_posepack_20" name="prayer_posepack_20_clip" />
+	<Anim dict="smo@prayer_posepack_21" name="prayer_posepack_21_clip" />
 ```
 
 FOR RPEMOTES-REBORN USERS ON FIVEM: 
 
-Please note that for all versions of rpemotes 2.0.2 and above, these animations are included by default.
+These are included in [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn) 2.0.2 by default, but we've provided them here in case you are using a custom version or another emote system. 
 
 And add custom emotes to:
 
@@ -54,7 +56,6 @@ rpemotes-reborn\stream\[Custom Emotes]\Struggleville
 If you are on an older version or your own custom version, add the below to your AnimationListCustom.lua:
 
 ```
-
 ["islampray1"] = { -- Made by Struggleville
     "smo@prayer_posepack_01",
     "prayer_posepack_01_clip",
@@ -173,7 +174,88 @@ If you are on an older version or your own custom version, add the below to your
 
 },
 
+["jewishpray"] = { -- Made by Struggleville
+    "smo@prayer_posepack_14",
+    "prayer_posepack_14_clip",
+    "Jewish Pray",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["jewishpray2"] = { -- Made by Struggleville
+    "smo@prayer_posepack_15",
+    "prayer_posepack_15_clip",
+    "Jewish Pray 2",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray"] = { -- Made by Struggleville
+    "smo@prayer_posepack_16",
+    "prayer_posepack_16_clip",
+    "Christian Pray",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray2"] = { -- Made by Struggleville
+    "smo@prayer_posepack_17",
+    "prayer_posepack_17_clip",
+    "Christian Pray 2",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray3"] = { -- Made by Struggleville
+    "smo@prayer_posepack_18",
+    "prayer_posepack_18_clip",
+    "Christian Pray 3",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray4"] = { -- Made by Struggleville
+    "smo@prayer_posepack_19",
+    "prayer_posepack_19_clip",
+    "Christian Pray 4",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray5"] = { -- Made by Struggleville
+    "smo@prayer_posepack_20",
+    "prayer_posepack_20_clip",
+    "Christian Pray 5",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
+["christianpray6"] = { -- Made by Struggleville
+    "smo@prayer_posepack_21",
+    "prayer_posepack_21_clip",
+    "Christian Pray 6",
+    AnimationOptions = {
+        onFootFlag = AnimFlag.LOOP,
+    }
+
+},
+
 ```
+
 
 
 
